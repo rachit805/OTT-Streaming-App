@@ -180,7 +180,7 @@ class Api {
     final Uri uri = Uri.parse(apiUrl).replace(queryParameters: queryParams);
 
     final Map<String, String> headers = {
-      'X-RapidAPI-Key': '07d8bf7097msh8f9cb56468126ecp175423jsnadc0ab24f5d1',
+      'X-RapidAPI-Key': '',
       'X-RapidAPI-Host': 'anime-db.p.rapidapi.com',
     };
 
@@ -211,7 +211,7 @@ class Api {
   Future<List<ChartEntry>> getBollywoodMusicData() async {
     final url = Uri.parse('https://spotify81.p.rapidapi.com/top_200_tracks');
     final headers = {
-      'X-RapidAPI-Key': '07d8bf7097msh8f9cb56468126ecp175423jsnadc0ab24f5d1',
+      'X-RapidAPI-Key': '',
       'X-RapidAPI-Host': 'spotify81.p.rapidapi.com',
     };
     final params = {'country': 'IN', 'period': 'daily'};
@@ -260,7 +260,7 @@ class Api {
     final Uri uri = Uri.parse(apiUrl);
 
     final Map<String, String> headers = {
-      'X-RapidAPI-Key': '07d8bf7097msh8f9cb56468126ecp175423jsnadc0ab24f5d1',
+      'X-RapidAPI-Key': '',
       'X-RapidAPI-Host': 'frecar-epguides-api-v1.p.rapidapi.com',
     };
 
@@ -371,7 +371,7 @@ class Api {
     final Uri uri = Uri.parse(apiUrl);
 
     final Map<String, String> headers = {
-      'X-RapidAPI-Key': '07d8bf7097msh8f9cb56468126ecp175423jsnadc0ab24f5d1',
+      'X-RapidAPI-Key': '',
       'X-RapidAPI-Host': 'movies-api14.p.rapidapi.com'
     };
 
@@ -419,7 +419,7 @@ class Api {
       Uri.parse('https://api.themoviedb.org/3/trending/tv/week'),
       headers: {
         'Authorization':
-            'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZTBhN2Q2MTkyNmVkNzUyOGI4OWYyYWZhMDFhODgzMyIsInN1YiI6IjY1YTc5MDMxNTI5NGU3MDEyNGQyYzk1OSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Y7dN4W8E35HTmnSRwqpvRpBFgjB8JyUvJy7koVuo9S4',
+            'Bearer ',
         'accept': 'application/json',
       },
     );
